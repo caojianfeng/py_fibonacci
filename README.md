@@ -88,24 +88,24 @@ python t02_fibo_bounds.py
 Show flowers close to Fibonacci sequence
 
 ```bash
-python t03_fibos_spirals.py 1
+python t03_fibo_spirals.py 1
 ```
 ![screen shot 1 of tutorial 03](screen_capture/t03_lines1.png)
 
 
 ```bash
-python t03_fibos_spirals.py 2
+python t03_fibo_spirals.py 2
 ```
 ![screen shot 2 of tutorial 03](screen_capture/t03_lines2.png)
 
 ```bash
-python t03_fibos_spirals.py 3
+python t03_fibo_spirals.py 3
 ```
 ![screen shot 3 of tutorial 03](screen_capture/t03_lines3.png)
 
 
 ```bash
-python t03_fibos_spirals.py 4
+python t03_fibo_spirals.py 4
 ```
 ![screen shot 4 of tutorial 03](screen_capture/t03_lines4.png)
 ## Truble shutting:
