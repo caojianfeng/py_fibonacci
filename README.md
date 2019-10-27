@@ -4,6 +4,61 @@
 
 Fibonacci sequence is a magical math tool. 
 
+And it can be compute by formula:
+
+![formula](screen_capture/fibonacci_formula.png)
+
+There are at least two ways to compute a Fibonacci sequence:
+
+#### 1. Compute by formula:
+
+```python
+
+# fibonacci_math.py
+
+def fibonacci(n):
+    return  (1/math.sqrt(5))
+            *(
+                math.pow((1+math.sqrt(5))/2,n)
+                -math.pow((1-math.sqrt(5))/2,n)
+            )
+        )
+
+def fibos(n):
+    fibo_list=[]
+    for i in range (0,min(n,LIMIT)):
+        fibo = fibonacci(i+1)
+        fibo_list.append(fibo)
+    return fibo_list
+```
+
+You can try it by:
+```bash
+# python fibos.py {n} like this:
+python fibonacci_math.py 12
+```
+#### 2. Compute by loop and puls:
+
+```python
+# fibos.py
+
+def fibos(n):
+    fibo_list=[]
+    last_step = 0
+    this_step = 1
+    for i in range (0,min(n,LIMIT)):
+        fibo = this_step
+        fibo_list.append(fibo)
+        this_step,last_step = this_step+last_step,this_step
+    return fibo_list
+
+```
+You can try it by:
+```bash
+# python fibos.py {n} like this:
+python fibos.py 9
+```
+
 ## Tutorials:
 
 ### tutorial 01:
