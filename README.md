@@ -1,4 +1,4 @@
-# draw Fibonacci sequence with python
+# Draw Fibonacci spirals with python
 
 ![screen shot of tutorial 06 style is  snail](screen_capture/t02.png)
 
@@ -116,3 +116,10 @@ you need to install Pillow
 ```bash
 pip install Pillow
 ```
+
+## Recommend
+[Draw Pentagram with python](https://github.com/caojianfeng/py_pentagram)
+![](https://github.com/caojianfeng/py_pentagram/raw/master/screen_capture/t06_SNAIL.png)
+
+[Draw Fibonacci spirals with python](https://github.com/caojianfeng/py_fibonacci)
+![](https://github.com/caojianfeng/py_fibonacci/raw/master/screen_capture/t02.png)
