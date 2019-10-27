@@ -17,7 +17,7 @@ class FiboStyle(object):
         self.colors = colors
 
 
-def fibos_line(fibo_style=FiboStyle()):
+def fibos_spiral(fibo_style=FiboStyle()):
 
     angle = fibo_style.angle * fibo_style.direction
     loop = 9
@@ -42,12 +42,12 @@ def go_home():
     down()
 
 
-def fibos_lines(count, direction=1, angle=90, colors=['#3399ff']):
+def fibos_spirals(count, direction=1, angle=90, colors=['#3399ff']):
 
     for i in range(0, count):
         fibo_style = FiboStyle(
             phase=i*360/count, angle=angle, direction=direction, colors=colors)
-        fibos_line(fibo_style)
+        fibos_spiral(fibo_style)
 
 
 def draw_style(style=0):
@@ -82,8 +82,8 @@ def draw_style(style=0):
         count_a = 0
         count_b = 21
 
-    fibos_lines(count=count_a, angle=angle_a, colors=colors_a)
-    fibos_lines(count=count_b, angle=angle_b, direction=-1, colors=colors_b)
+    fibos_spirals(count=count_a, angle=angle_a, colors=colors_a)
+    fibos_spirals(count=count_b, angle=angle_b, direction=-1, colors=colors_b)
 
 
 if __name__ == "__main__":

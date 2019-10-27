@@ -8,7 +8,7 @@ And it can be compute by formula:
 
 ![formula](screen_capture/fibonacci_formula.png)
 
-There are at least two ways to compute a Fibonacci sequence:
+### There are at least two ways to compute a Fibonacci sequence:
 
 #### 1. Compute by formula:
 
@@ -59,11 +59,15 @@ You can try it by:
 python fibos.py 9
 ```
 
+And you can draw a fibonacci spiral which use only 10 line`s code.
+
+![draw fibonacci spiral with 10 line](screen_capture/t01x.png)
+
 ## Tutorials:
 
 ### tutorial 01:
 
-The simplest code to draw a fibonacci line
+The simplest code to draw a fibonacci spiral which use only 10 line`s code.
 
 ```bash
 python t01_simplest.py
@@ -84,24 +88,24 @@ python t02_fibo_bounds.py
 Show flowers close to Fibonacci sequence
 
 ```bash
-python t03_flower.py 1
+python t03_fibos_spirals.py 1
 ```
 ![screen shot 1 of tutorial 03](screen_capture/t03_lines1.png)
 
 
 ```bash
-python t03_flower.py 2
+python t03_fibos_spirals.py 2
 ```
 ![screen shot 2 of tutorial 03](screen_capture/t03_lines2.png)
 
 ```bash
-python t03_flower.py 3
+python t03_fibos_spirals.py 3
 ```
 ![screen shot 3 of tutorial 03](screen_capture/t03_lines3.png)
 
 
 ```bash
-python t03_flower.py 4
+python t03_fibos_spirals.py 4
 ```
 ![screen shot 4 of tutorial 03](screen_capture/t03_lines4.png)
 ## Truble shutting:
