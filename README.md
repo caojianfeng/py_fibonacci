@@ -18,10 +18,7 @@ And it can be compute by formula:
 
 def fibonacci(n):
     return  (1/math.sqrt(5))
-            *(
-                math.pow((1+math.sqrt(5))/2,n)
-                -math.pow((1-math.sqrt(5))/2,n)
-            )
+            *(math.pow((1+math.sqrt(5))/2,n)-math.pow((1-math.sqrt(5))/2,n))
         )
 
 def fibos(n):
