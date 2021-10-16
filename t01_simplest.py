@@ -1,3 +1,5 @@
+#!python3
+
 from turtle import *
 import math
 

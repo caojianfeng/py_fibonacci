@@ -1,3 +1,5 @@
+#!python3
+
 import math
 from turtle import *
 from fibos import fibos
